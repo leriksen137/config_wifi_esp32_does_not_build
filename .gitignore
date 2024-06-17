@@ -1,0 +1,28 @@
+# editors
+.vscode
+.idea
+*.swp
+*~
+
+# python
+.venv
+
+# build
+/build*
+/twister-out*
+
+__pycache__/
+
+# docs
+/doc/_build*
+
+### Zephyr
+
+.west/
+/twister-out*
+zephyr/
+modules/
+
+
+### MinGW
+cmake-build-debug-mingw
